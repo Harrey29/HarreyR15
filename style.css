@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+a, ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.logo-container .logoLink{
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: -2px;
+}
+
+.searchForm{
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+.searchForm .field {
+    background: 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 20px;
+    letter-spacing: -.42px;
+    padding: 5px 72px 6px 16px;
+    width: 100%;
+    background-color: rgba(24,24,24,.06);  
+    border: none;
+    cursor: text;
+    border-radius: 5px;
+    background-color:#40e9e0;
+}
+
+.rightHeaderContent ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.navItems .loginHeaderButton{
+    background-color: rgb(226, 17, 51);
+    color: #444;
+}
+
+.navItems button{
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navItems .signupHeaderButton{
+    background-color:  rgb(226, 17, 51);;
+    color: white;
+}
+
+.navItems button span{
+    padding: 9px 12px 10px;
+}
+
+/* body */
+.body{
+    width: 100%; 
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 34%, rgba(148,187,233,1) 100%);
+}
+
+.sectionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90.7vh;
+    max-height: 100vh;
+    gap: 20rem;
+}
+
+.sectionContent {
+    max-width: 395px;
+    margin: 0 auto;
+}
+
+.sectionContent h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    padding-bottom: 40px;
+    margin-top: 90px;
+    color: rgba(24,24,24,.86);
+    text-align: center;
+}
+
+.sectionContent p {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -.1px;
+    margin-bottom: 26px;
+    color: rgba(24,24,24,.66);
+    text-align: center;
+}
+
+.introGraphic_browserExtension {
+    display: block;
+    height: 506px;
+    width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 3.67px 38.7px rgba(0,0,0,.11);
+}
+
+.introActionButton {
+    display: inline-block;
+    border-radius: 38px;
+    font-size: 16px;
+    line-height: 56px;
+    font-weight: 600;
+    letter-spacing: -.1px;
+    text-align: center;
+    margin: 40px 0 0;
+    height: 56px;
+    min-width: 220px;
+    color: #fff;
+    background-color: #fdfbfb;
+}
+
+/* hover */
+.navItems .signupHeaderButton:hover{
+    background-color: #7c0a56a8;
+    color: rgb(230, 190, 15);
+}
+
+.navItems button:hover{
+    background-color: rgb(181, 23, 230);
+    color: white;
+}
+
+.searchForm .field:hover {
+    background-color: rgba(235, 232, 232, 0.925);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
